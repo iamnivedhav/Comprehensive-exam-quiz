@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+:root {
+    --color-dark-bg: #111827; /* Dark Slate Gray */
+    --color-card-bg: #1F2937; /* Darker Slate */
+    --color-neon-green: #34D399; /* Neon Green */
+    --color-neon-blue: #60A5FA; /* Neon Blue */
+    --color-text-light: #F9FAFB; /* Light Gray Text */
+    --color-text-medium: #D1D5DB; /* Medium Gray Text */
+    --color-correct: #10B981; /* Green for Correct */
+}
+
+/* Base Styles */
+body.dark-theme {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-dark-bg);
+    color: var(--color-text-light);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem 1rem;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+}
+
+/* Header & Card Styling */
+.header-box {
+    background-color: var(--color-card-bg);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.neon-border {
+    border: 2px solid var(--color-neon-blue);
+    box-shadow: 0 0 10px var(--color-neon-blue), 0 0 20px var(--color-neon-blue) inset;
+}
+.shadow-neon-blue {
+    box-shadow: 0 0 15px rgba(96, 165, 250, 0.5); /* Soft blue glow */
+}
+.shadow-neon-green {
+    box-shadow: 0 0 15px rgba(52, 211, 153, 0.5); /* Soft green glow */
+}
+.shadow-neon-red {
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.5); /* Soft red glow for errors */
+}
+.text-neon-green {
+    color: var(--color-neon-green);
+}
+.text-neon-blue {
+    color: var(--color-neon-blue);
+}
+
+/* Buttons */
+.neon-button-green {
+    background-color: var(--color-neon-green);
+    color: var(--color-dark-bg);
+    font-weight: 700;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+    border: 2px solid var(--color-neon-green);
+}
+.neon-button-green:hover {
+    box-shadow: 0 0 8px var(--color-neon-green), 0 0 15px var(--color-neon-green);
+    transform: scale(1.03);
+}
+
+.neon-button-blue {
+    background-color: var(--color-neon-blue);
+    color: var(--color-dark-bg);
+    font-weight: 700;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+    border: 2px solid var(--color-neon-blue);
+}
+.neon-button-blue:hover {
+    box-shadow: 0 0 8px var(--color-neon-blue), 0 0 15px var(--color-neon-blue);
+    transform: scale(1.03);
+}
+
+/* Option Buttons */
+.option-button {
+    background-color: var(--color-card-bg);
+    color: var(--color-text-light);
+    border: 1px solid var(--color-neon-blue);
+    transition: all 0.2s;
+}
+.option-button:hover:not(:disabled) {
+    background-color: #374151; /* Slightly lighter dark color on hover */
+    box-shadow: 0 0 5px var(--color-neon-blue);
+}
+.option-button:disabled {
+    cursor: default;
+}
+
+/* Feedback/Highlighting */
+.option-correct {
+    background-color: var(--color-correct) !important;
+    color: var(--color-dark-bg) !important;
+    border-color: var(--color-correct) !important;
+    box-shadow: 0 0 10px var(--color-correct);
+}
+.option-incorrect {
+    background-color: #EF4444 !important; /* Red 500 */
+    color: var(--color-text-light) !important;
+    border-color: #EF4444 !important;
+}
+
+/* Question Box */
+.question-box {
+    background-color: #374151; /* Dark Gray for contrast */
+    border: 1px solid var(--color-neon-green);
+    box-shadow: 0 0 5px var(--color-neon-green);
+    color: var(--color-text-light);
+}
+
+/* Loading Spinner */
+.loading-spinner {
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: var(--color-neon-green);
+    animation: spin 1s linear infinite;
+    margin: 0 auto 1rem;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comp Exam Revision Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+
+<div class="container mx-auto p-4 md:p-8">
+    <div class="header-box neon-border shadow-neon-blue">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-neon-green mb-2 text-center">
+            COMP EXAM REVISION
+        </h1>
+        <p class="text-xl text-neon-blue text-center">
+            Select your quiz configuration to start studying.
+        </p>
+    </div>
+
+    <div id="quiz-container" class="mt-10">
+        <div class="text-center p-8">
+            <div class="loading-spinner"></div>
+            <p class="text-xl text-neon-green font-semibold">Loading data from questions.json...</p>
+            <p class="text-gray-400 mt-2">Please ensure the file is in the same directory.</p>
+        </div>
+    </div>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
