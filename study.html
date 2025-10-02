@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Mode</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+
+<div class="container mx-auto p-4 md:p-8">
+    <div class="header-box neon-border shadow-neon-blue mb-6 p-4">
+        <h1 class="text-3xl font-extrabold text-neon-blue mb-1 text-center">
+            STUDY MODE: <span id="study-topic-title" class="text-neon-green"></span>
+        </h1>
+        <p class="text-center text-gray-400" id="question-count-text"></p>
+    </div>
+
+    <div id="study-list-container" class="space-y-6 mt-4">
+        <div class="text-center p-8">
+            <div class="loading-spinner"></div>
+            <p class="text-xl text-neon-green font-semibold">Preparing study list...</p>
+        </div>
+    </div>
+
+    <div class="flex justify-center mt-10 pb-10">
+        <button onclick="window.location.href='index.html'" class="neon-button-blue w-full sm:w-80">
+            &larr; Back to Dashboard
+        </button>
+    </div>
+</div>
+
+<script src="scripts.js"></script>
+<script>
+    // This function runs on study.html load
+    window.onload = () => {
+        const params = new URLSearchParams(window.location.search);
+        const subject = params.get('subject');
+
+        if (subject) {
+            document.getElementById('study-topic-title').textContent = decodeURIComponent(subject);
+            loadQuestions({ mode: 'study', subject }); // Pass configuration to loader
+        } else {
+            document.getElementById('study-topic-title').textContent = 'Error';
+            document.getElementById('study-list-container').innerHTML = `<p class="text-red-400 text-center">Please select a subject from the dashboard to use study mode.</p>`;
+        }
+    };
+</script>
+</body>
+</html>
