@@ -3290,7 +3290,7 @@
   {
     "id": 275,
     "topic": "Data Structures and Algorithms",
-    "question": "The result of evaluating the prefix expression text{*/b+-dacd}, where a=3, b=6, c=1, d=5 is",
+    "question": "The result of evaluating the prefix expression */b+-dacd}, where a=3, b=6, c=1, d=5 is",
     "options": [
       "A. 0",
       "B. 5",
@@ -3751,7 +3751,7 @@
       "A. 2l",
       "B. 2l+1",
       "C. 2l-1",
-      "D. text{Null}/epsilon"
+      "D. Null}/epsilon"
     ],
     "answerIndex": 3
   },
@@ -3806,7 +3806,7 @@
   {
     "id": 318,
     "topic": "Data Structures and Algorithms",
-    "question": "The initial array elements are 1, 7, 5, 2 after which the following operation are performed text{enqueue}(6), text{enqueue}(8), text{dequeue}, text{dequeue}, text{enqueue}(9), text{enqueue}(0). What are the final elements of the array?",
+    "question": "The initial array elements are 1, 7, 5, 2 after which the following operation are performed enqueue}(6), enqueue}(8), dequeue}, dequeue}, enqueue}(9), enqueue}(0). What are the final elements of the array?",
     "options": [
       "A. 1, 7, 5, 2, 9, 0",
       "B. 1, 7, 5, 2, 6, 8",
@@ -4900,10 +4900,10 @@
     "topic": "Database Management",
     "question": "Relations produced by ER model will always be in",
     "options": [
-      "A. 1text{NF}",
-      "B. 2text{NF}",
-      "C. 3text{NF}",
-      "D. 4text{NF}"
+      "A. 1NF}",
+      "B. 2NF}",
+      "C. 3NF}",
+      "D. 4NF}"
     ],
     "answerIndex": 0
   },
@@ -5225,7 +5225,7 @@
     "question": "Nesting of try block is",
     "options": [
       "A. syntax error",
-      "B. possible in text{C++}",
+      "B. possible in C++}",
       "C. logical error",
       "D. both (a) and (c)"
     ],
@@ -5237,7 +5237,7 @@
     "question": "Nesting of catch block is",
     "options": [
       "A. syntax error",
-      "B. possible in text{C++}",
+      "B. possible in C++}",
       "C. logical error",
       "D. None of the above"
     ],
@@ -5498,7 +5498,7 @@
   {
     "id": 459,
     "topic": "Operating Systems",
-    "question": "Let the initial value of count be 5. What will be the final value of count if the instructions are executed in the following order: S1; T1; S2; T2; S3; T3. Process P0: {S1: text{register}1 = text{count}; S2: text{register}1 = text{register}1 - 5; S3: text{count} = text{register}1}. Process P1: {T1: text{register}2 = text{count}; T2: text{register}2 = text{register}2 times 5; T3: text{count} = text{register}2}",
+    "question": "Let the initial value of count be 5. What will be the final value of count if the instructions are executed in the following order: S1; T1; S2; T2; S3; T3. Process P0: {S1: register}1 = count}; S2: register}1 = register}1 - 5; S3: count} = register}1}. Process P1: {T1: register}2 = count}; T2: register}2 = register}2 times 5; T3: count} = register}2}",
     "options": [
       "A. 50",
       "B. 25",
@@ -5510,7 +5510,7 @@
   {
     "id": 460,
     "topic": "Operating Systems",
-    "question": "Let the initial value of count be 10. What will be the final value of count if the instructions are executed in the following order: S1; T1; S2; T2; S3; T3. Process P0: {S1: text{register}1 = text{count}; S2: text{register}1 = text{register}1 - 5; S3: text{count} = text{register}1}. Process P1: {T1: text{register}2 = text{count}; T2: text{register}2 = text{register}2 times 5; T3: text{count} = text{register}2}",
+    "question": "Let the initial value of count be 10. What will be the final value of count if the instructions are executed in the following order: S1; T1; S2; T2; S3; T3. Process P0: {S1: register}1 = count}; S2: register}1 = register}1 - 5; S3: count} = register}1}. Process P1: {T1: register}2 = count}; T2: register}2 = register}2 times 5; T3: count} = register}2}",
     "options": [
       "A. 50",
       "B. 20",
@@ -5546,7 +5546,7 @@
   {
     "id": 463,
     "topic": "Formal Languages and Automata Theory",
-    "question": "Left linear grammars are _____ of text{CFG}",
+    "question": "Left linear grammars are _____ of CFG}",
     "options": [
       "A. Power set",
       "B. Sub set",
@@ -5630,7 +5630,7 @@
   {
     "id": 470,
     "topic": "Information Security",
-    "question": "Lakshan sends an encrypted message to Ruhan but it is intercepted by Tanish. Tanish cannot read it but forwards it on to Ruhan from an anonymous address she controls. Which precept of the text{CIA} Triad would have been violated?",
+    "question": "Lakshan sends an encrypted message to Ruhan but it is intercepted by Tanish. Tanish cannot read it but forwards it on to Ruhan from an anonymous address she controls. Which precept of the CIA} Triad would have been violated?",
     "options": [
       "A. Confidentiality",
       "B. Integrity",
@@ -6074,7 +6074,7 @@
   {
     "id": 507,
     "topic": "Operating Systems",
-    "question": "In text{FIFO} page replacement algorithm, when a page must be replaced",
+    "question": "In FIFO} page replacement algorithm, when a page must be replaced",
     "options": [
       "A. oldest page is chosen",
       "B. newest page is chosen",
@@ -6110,7 +6110,7 @@
   {
     "id": 510,
     "topic": "Information Security",
-    "question": "In text{CIA} Triad, text{CIA} refers to",
+    "question": "In CIA} Triad, CIA} refers to",
     "options": [
       "A. Confidentiality, Integrity and Authentication",
       "B. Confidentiality, Integrity and Availability",
@@ -6170,7 +6170,7 @@
   {
     "id": 515,
     "topic": "Database Management",
-    "question": "In ABC University, there are several 'Departments' including Computer Science, Information Technology, Mechanical, Civil, Finance and Maintenance. Some departments have students and some are not. If department and student are entity sets in this university database and they are linked through a relationship named text{DS}, which among the following is a partial participation?",
+    "question": "In ABC University, there are several 'Departments' including Computer Science, Information Technology, Mechanical, Civil, Finance and Maintenance. Some departments have students and some are not. If department and student are entity sets in this university database and they are linked through a relationship named DS}, which among the following is a partial participation?",
     "options": [
       "A. Participation of department in student",
       "B. Participation of department in DS",
@@ -6194,11 +6194,11 @@
   {
     "id": 517,
     "topic": "Data Structures and Algorithms",
-    "question": "In a stack, the command to access an n^{text{th}} element from the top of the stack s will be",
+    "question": "In a stack, the command to access an n^{th}} element from the top of the stack s will be",
     "options": [
-      "A. S[text{Top}-n]",
-      "B. S[text{Top}+n]",
-      "C. S[text{Top}-n-1]",
+      "A. S[Top}-n]",
+      "B. S[Top}+n]",
+      "C. S[Top}-n-1]",
       "D. None of the option"
     ],
     "answerIndex": 0
@@ -6230,7 +6230,7 @@
   {
     "id": 520,
     "topic": "Operating Systems",
-    "question": "In a Paging scheme with page sizes of 1text{K}, given the logical address (2, 35) and the corresponding frame number in the page table as 4, what is the physical address mapped to the given logical address?",
+    "question": "In a Paging scheme with page sizes of 1K}, given the logical address (2, 35) and the corresponding frame number in the page table as 4, what is the physical address mapped to the given logical address?",
     "options": [
       "A. 5131",
       "B. 2030",
@@ -6254,12 +6254,12 @@
   {
     "id": 522,
     "topic": "Data Structures and Algorithms",
-    "question": "In a circular queue, the value of text{r} will be",
+    "question": "In a circular queue, the value of r} will be",
     "options": [
       "A. r=r+1",
-      "B. r=(r+1)%[text{queue_size}-1]",
-      "C. r=(r+1)%text{queue_size}",
-      "D. r=(r-1)%text{queue_size}"
+      "B. r=(r+1)%[queue_size}-1]",
+      "C. r=(r+1)%queue_size}",
+      "D. r=(r-1)%queue_size}"
     ],
     "answerIndex": 2
   },
@@ -6290,12 +6290,12 @@
   {
     "id": 525,
     "topic": "Information Security",
-    "question": "In MAC Tuples, Process can read object when: Object text{MAC} range (text{lr}, text{hr}); process text{MAC} label text{pl}",
+    "question": "In MAC Tuples, Process can read object when: Object MAC} range (lr}, hr}); process MAC} label pl}",
     "options": [
-      "A. text{pl} Sigma (text{lr},text{hr})",
-      "B. text{pl} cup (text{lr},text{hr})",
-      "C. text{pl} in (text{lr},text{hr})",
-      "D. text{pl} text{ dom } text{hr}"
+      "A. pl} Sigma (lr},hr})",
+      "B. pl} cup (lr},hr})",
+      "C. pl} in (lr},hr})",
+      "D. pl}  dom } hr}"
     ],
     "answerIndex": 3
   },
@@ -6314,19 +6314,19 @@
   {
     "id": 527,
     "topic": "Formal Languages and Automata Theory",
-    "question": "If there is a unique text{LMD}, the grammar is",
+    "question": "If there is a unique LMD}, the grammar is",
     "options": [
       "A. ambiguous",
       "B. un ambiguous",
-      "C. text{LLG}",
-      "D. text{RLG}"
+      "C. LLG}",
+      "D. RLG}"
     ],
     "answerIndex": 1
   },
   {
     "id": 528,
     "topic": "Formal Languages and Automata Theory",
-    "question": "If there is a complete text{DFA } M1 recognizing a language L1 and has m states out of which two are final states then the machine text{M} recognizing L1 complement will have _____ final states.",
+    "question": "If there is a complete DFA } M1 recognizing a language L1 and has m states out of which two are final states then the machine M} recognizing L1 complement will have _____ final states.",
     "options": [
       "A. m",
       "B. m+2",
@@ -6374,7 +6374,7 @@
   {
     "id": 532,
     "topic": "Formal Languages and Automata Theory",
-    "question": "R is a regular language and text{M} is a finite language then L cup M must be regular language",
+    "question": "R is a regular language and M} is a finite language then L cup M must be regular language",
     "options": [
       "A. True",
       "B. False",
@@ -6386,7 +6386,7 @@
   {
     "id": 533,
     "topic": "Formal Languages and Automata Theory",
-    "question": "If text{M}1 machine recognizing L with n states, then M2 recognizing Last constructed Using text{Thompson} construction will have _____ states.",
+    "question": "If M}1 machine recognizing L with n states, then M2 recognizing Last constructed Using Thompson} construction will have _____ states.",
     "options": [
       "A. n-1",
       "B. n+2",
@@ -6410,7 +6410,7 @@
   {
     "id": 535,
     "topic": "Formal Languages and Automata Theory",
-    "question": "If L1 and L2 are text{CFL} and R a regular set, one of the languages below is not necessarily a text{CFL}. which one?",
+    "question": "If L1 and L2 are CFL} and R a regular set, one of the languages below is not necessarily a CFL}. which one?",
     "options": [
       "A. L1 cap L2",
       "B. L1 cap R",
@@ -6434,7 +6434,7 @@
   {
     "id": 537,
     "topic": "Data Structures and Algorithms",
-    "question": "If a selection sort algorithm in the worst case is taking 20text{sec} for processing an array of size 32. Which of the following is close to the maximum input size that can be solved in 5 minutes?",
+    "question": "If a selection sort algorithm in the worst case is taking 20sec} for processing an array of size 32. Which of the following is close to the maximum input size that can be solved in 5 minutes?",
     "options": [
       "A. 256",
       "B. 512",
@@ -6530,7 +6530,7 @@
   {
     "id": 545,
     "topic": "Operating Systems",
-    "question": "How many \"SCOPE\"s are printed?, how many \"SCOPE\"s are printed by only child processes? text{int main()}{text{if}(text{fork()} parallel text{fork()}) text{fork()}; text{printf}(text{\"SCOPE\"}); }",
+    "question": "How many \"SCOPE\"s are printed?, how many \"SCOPE\"s are printed by only child processes? int main()}{if}(fork()} parallel fork()}) fork()}; printf}(\"SCOPE\"}); }",
     "options": [
       "A. 5, 2",
       "B. 5, 3",
@@ -6542,7 +6542,7 @@
   {
     "id": 546,
     "topic": "Operating Systems",
-    "question": "How many \"SCOPE\"s are printed?, how many \"SCOPE\"s are printed by only child processes? text{int main()}{text{if}(text{fork()} land land text{fork()}) text{fork()}; text{printf}(text{\"SCOPE\"}); }",
+    "question": "How many \"SCOPE\"s are printed?, how many \"SCOPE\"s are printed by only child processes? int main()}{if}(fork()} land land fork()}) fork()}; printf}(\"SCOPE\"}); }",
     "options": [
       "A. 5, 2",
       "B. 5, 3",
@@ -6554,7 +6554,7 @@
   {
     "id": 547,
     "topic": "Operating Systems",
-    "question": "How many \"hello\" messages will be printed if the following program is executed? text{int main()}{text{pid_t p}; text{fork()}; text{if } (p>0){text{fork()}; text{fork()};} text{if } (p==0){text{fork()}; text{fork()}; text{exit}(0);} text{printf}(text{\"hello\"});}",
+    "question": "How many \"hello\" messages will be printed if the following program is executed? int main()}{pid_t p}; fork()}; if } (p>0){fork()}; fork()};} if } (p==0){fork()}; fork()}; exit}(0);} printf}(\"hello\"});}",
     "options": [
       "A. 2",
       "B. 3",
@@ -6566,7 +6566,7 @@
   {
     "id": 548,
     "topic": "Operating Systems",
-    "question": "How many \"hello\" messages will be printed if the following program is executed? text{int main()}{text{pid_t p}; text{fork()}; text{if } (p>0){text{fork()}; text{fork()}; text{exit}(0);} text{if } (p==0){text{fork()}; text{fork()}; text{exit}(0);} text{printf}(text{\"hello\"});}",
+    "question": "How many \"hello\" messages will be printed if the following program is executed? int main()}{pid_t p}; fork()}; if } (p>0){fork()}; fork()}; exit}(0);} if } (p==0){fork()}; fork()}; exit}(0);} printf}(\"hello\"});}",
     "options": [
       "A. 1",
       "B. 3",
@@ -6626,7 +6626,7 @@
   {
     "id": 553,
     "topic": "Information Security",
-    "question": "How many rounds are there in text{DES}?",
+    "question": "How many rounds are there in DES}?",
     "options": [
       "A. 15",
       "B. 8",
@@ -6638,12 +6638,12 @@
   {
     "id": 554,
     "topic": "Networking",
-    "question": "How does your personal computer (end device/host) recognize its text{IP} address and the Gateway text{IP} address to use for transmitting packets to remote hosts without any manual configuration when you connect it to the internet?",
+    "question": "How does your personal computer (end device/host) recognize its IP} address and the Gateway IP} address to use for transmitting packets to remote hosts without any manual configuration when you connect it to the internet?",
     "options": [
-      "A. text{DNS} (Domain Name System)",
-      "B. text{ARP} (Address Resolution Protocol)",
-      "C. text{DHCP} (Dynamic Host Configuration Protocol)",
-      "D. text{FTP} (File transfer protocol)"
+      "A. DNS} (Domain Name System)",
+      "B. ARP} (Address Resolution Protocol)",
+      "C. DHCP} (Dynamic Host Configuration Protocol)",
+      "D. FTP} (File transfer protocol)"
     ],
     "answerIndex": 2
   },
@@ -6652,10 +6652,10 @@
     "topic": "Networking",
     "question": "Hospitals, banks, and supermarkets are all linked using which network type?",
     "options": [
-      "A. text{WAN}",
-      "B. text{LAN}",
-      "C. text{BUS}",
-      "D. text{WiFi}"
+      "A. WAN}",
+      "B. LAN}",
+      "C. BUS}",
+      "D. WiFi}"
     ],
     "answerIndex": 0
   },
@@ -6734,7 +6734,7 @@
   {
     "id": 562,
     "topic": "Operating Systems",
-    "question": "Hardware solution to the critical section problem using text{test},&,text{set}: `while (true) { while (TestAndSet(&lock));  critical section lock = FALSE;  remainder section }`",
+    "question": "Hardware solution to the critical section problem using test},&,set}: `while (true) { while (TestAndSet(&lock));  critical section lock = FALSE;  remainder section }`",
     "options": [
       "A. Implements mutual exclusion and progress",
       "B. Implements only mutual exclusion",
