@@ -8925,7 +8925,7 @@
       "C. KDSI",
       "D. None of the above"
     ],
-    "answerIndex": 3
+    "answerIndex": 2
   },
   {
     "id": 745,
@@ -8937,7 +8937,7 @@
       "C. COCOMO",
       "D. Incremental"
     ],
-    "answerIndex": 2
+    "answerIndex": 3
   },
   {
     "id": 746,
@@ -8961,7 +8961,7 @@
       "C. Process",
       "D. Cost estimation"
     ],
-    "answerIndex": 2
+    "answerIndex": 1
   },
   {
     "id": 748,
@@ -9093,7 +9093,7 @@
       "C. Programmer",
       "D. None from the list"
     ],
-    "answerIndex": 1
+    "answerIndex": 0
   },
   {
     "id": 759,
@@ -15597,7 +15597,7 @@
       "C. Package Diagram",
       "D. Class Diagram"
     ],
-    "answerIndex": 2
+    "answerIndex": 3
   },
   {
     "id": 1301,
@@ -15657,7 +15657,7 @@
       "C. External Entity",
       "D. Bubble Symbol"
     ],
-    "answerIndex": 3
+    "answerIndex": 0
   },
   {
     "id": 1306,
@@ -15693,7 +15693,7 @@
       "C. 5",
       "D. 6"
     ],
-    "answerIndex": 2
+    "answerIndex": 1
   },
   {
     "id": 1309,
