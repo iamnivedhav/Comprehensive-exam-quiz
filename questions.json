@@ -11493,7 +11493,7 @@
       "C. immediate line of code or normal immediate block",
       "D. throw block"
     ],
-    "answerIndex": 2
+    "answerIndex": 0
   },
   {
     "id": 960,
@@ -11529,7 +11529,7 @@
       "C. All are incorrect",
       "D. All are correct"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "id": 963,
@@ -12535,9 +12535,9 @@
       "A. 30,39",
       "B. 31, 40",
       "C. 31,39",
-      "D. 56, 64"
+      "D. 48-57"
     ],
-    "answerIndex": 0
+    "answerIndex": 3
   },
   {
     "id": 1047,
@@ -12549,7 +12549,7 @@
       "C. getchar()",
       "D. getcharecho()"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "id": 1048,
@@ -12585,7 +12585,7 @@
       "C. Space available",
       "D. They are global declaration and available to all"
     ],
-    "answerIndex": 2
+    "answerIndex": 0
   },
   {
     "id": 1051,
@@ -12609,7 +12609,7 @@
       "C. res=/4",
       "D. res=a++-b*2"
     ],
-    "answerIndex": 2
+    "answerIndex": 0
   },
   {
     "id": 1053,
@@ -12621,7 +12621,7 @@
       "C. to a number",
       "D. to character c"
     ],
-    "answerIndex": 1
+    "answerIndex": 3
   },
   {
     "id": 1054,
@@ -14998,7 +14998,7 @@
       "C. Both (i) and (ii)",
       "D. Neither (i) nor (ii)"
     ],
-    "answerIndex": 2
+    "answerIndex": 0
   },
   {
     "id": 1259,
@@ -15934,7 +15934,7 @@
       "C. 3",
       "D. 4"
     ],
-    "answerIndex": 2
+    "answerIndex": 3
   },
   {
     "id": 1339,
