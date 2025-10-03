@@ -2985,7 +2985,7 @@
       "C. link; channel",
       "D. line; link"
     ],
-    "answerIndex": 2
+    "answerIndex": 1
   },
   {
     "id": 250,
@@ -6645,7 +6645,7 @@
       "C. DHCP} (Dynamic Host Configuration Protocol)",
       "D. FTP} (File transfer protocol)"
     ],
-    "answerIndex": 2
+    "answerIndex": 1
   },
   {
     "id": 555,
@@ -9309,7 +9309,7 @@
       "C. Both TDM or FDM",
       "D. Neither TDM or FDM"
     ],
-    "answerIndex": 2
+    "answerIndex": 1
   },
   {
     "id": 778,
@@ -9491,18 +9491,7 @@
     ],
     "answerIndex": 0
   },
-  {
-    "id": 793,
-    "topic": "Networking",
-    "question": "What is the minimum hamming distance of this coding scheme d (01101,10011)?",
-    "options": [
-      "A. 1",
-      "B. 2",
-      "C. 3",
-      "D. 4"
-    ],
-    "answerIndex": 2
-  },
+  
   {
     "id": 794,
     "topic": "Networking",
@@ -9705,7 +9694,7 @@
       "C. 100111001",
       "D. 100111001110"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "id": 811,
@@ -9861,7 +9850,7 @@
       "C. OSI",
       "D. IEEE"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "id": 824,
@@ -10809,7 +10798,7 @@
       "C. High bandwidth",
       "D. Support proprietary protocol"
     ],
-    "answerIndex": 3
+    "answerIndex": 1
   },
   {
     "id": 903,
@@ -13809,7 +13798,7 @@
       "C. 255.252.0.0",
       "D. 255.254.0.0"
     ],
-    "answerIndex": 1
+    "answerIndex": 0
   },
   {
     "id": 1153,
@@ -13833,7 +13822,7 @@
       "C. Hubs",
       "D. Windows 95"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "id": 1155,
@@ -13953,7 +13942,7 @@
       "C. False, True",
       "D. False, False"
     ],
-    "answerIndex": 2
+    "answerIndex": 1
   },
   {
     "id": 1165,
@@ -14506,7 +14495,7 @@
       "C. Ring",
       "D. Mesh"
     ],
-    "answerIndex": 3
+    "answerIndex": 0
   },
   {
     "id": 1216,
@@ -15310,7 +15299,7 @@
       "C. Exchanges message",
       "D. Formats message"
     ],
-    "answerIndex": 1
+    "answerIndex": 2
   },
   {
     "id": 1285,
@@ -15358,7 +15347,7 @@
       "C. DHCP",
       "D. Domain server"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "id": 1289,
