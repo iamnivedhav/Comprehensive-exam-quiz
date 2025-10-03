@@ -4317,7 +4317,7 @@
       "C. the compiler easily finds syntax error in a program",
       "D. the time complexity is linear"
     ],
-    "answerIndex": 1
+    "answerIndex": 2
   },
   {
     "id": 361,
@@ -4545,7 +4545,7 @@
       "C. Discard",
       "D. None"
     ],
-    "answerIndex": 1
+    "answerIndex": 2
   },
   {
     "id": 380,
@@ -5241,7 +5241,7 @@
       "C. logical error",
       "D. None of the above"
     ],
-    "answerIndex": 3
+    "answerIndex": 1
   },
   {
     "id": 438,
@@ -6969,19 +6969,7 @@
       "C. One",
       "D. none"
     ],
-    "answerIndex": 3
-  },
-  {
-    "id": 582,
-    "topic": "Programming",
-    "question": "For declaring class templates, _____ of the arguments in template declaration may be non-generic ordinary data types.",
-    "options": [
-      "A. Some",
-      "B. all",
-      "C. None of the argument",
-      "D. One"
-    ],
-    "answerIndex": 1
+    "answerIndex": 0
   },
   {
     "id": 583,
