@@ -1917,7 +1917,7 @@
       "C. M_1 and M_2",
       "D. M_1 or M_2"
     ],
-    "answerIndex": 0
+    "answerIndex": 2
   },
   {
     "id": 161,
@@ -1929,7 +1929,7 @@
       "C. binary+",
       "D. unary+"
     ],
-    "answerIndex": 2
+    "answerIndex": 1
   },
   {
     "id": 162,
@@ -1953,7 +1953,7 @@
       "C. regular expression",
       "D. both finite automata and regular expression"
     ],
-    "answerIndex": 1
+    "answerIndex": 3
   },
   {
     "id": 164,
@@ -2366,12 +2366,12 @@
   {
     "id": 198,
     "topic": "Formal Languages and Automata Theory",
-    "question": "What is {1, 2} intersect {2, 3}*",
+    "question": "What is {1, 2}* intersect {2, 3}*",
     "options": [
-      "A. {12, 2}",
-      "B. {23, 2}",
-      "C. {2}",
-      "D. {12, 23}"
+      "A. {12, 2}*",
+      "B. {23, 2}*",
+      "C. {2}*",
+      "D. {12, 23}*"
     ],
     "answerIndex": 2
   },
@@ -2930,14 +2930,14 @@
   {
     "id": 245,
     "topic": "Formal Languages and Automata Theory",
-    "question": "There exists a language L. We define a string w such that w belongs to L and w = pqr and |w| ge n for some constant integer n. What can be the maximum length of the substring pq i.e. |pq| le?",
+    "question": "There exists a language L. We define a string w such that w belongs to L and w=pqr and |w| >=n for some constant integer n.What can be the maximum length of the substring pq i.e. |pq|<=? ",
     "options": [
       "A. n",
       "B. |q|",
       "C. n-1",
       "D. |w| - n"
     ],
-    "answerIndex": 2
+    "answerIndex": 0
   },
   {
     "id": 246,
@@ -3057,7 +3057,7 @@
       "C. 3 input tape",
       "D. 4 input tape"
     ],
-    "answerIndex": 2
+    "answerIndex": 0
   },
   {
     "id": 256,
@@ -3244,12 +3244,12 @@
     "topic": "Formal Languages and Automata Theory",
     "question": "The set of all strings over the alphabet {p, q} (including epsilon) is denoted by",
     "options": [
-      "A. (q+p)",
+      "A. (q+p)*",
       "B. (q+p)^+",
       "C. p^+ q^+",
       "D. p^* q^*"
     ],
-    "answerIndex": 3
+    "answerIndex": 0
   },
   {
     "id": 272,
@@ -3259,7 +3259,7 @@
       "A. (a+b)^+",
       "B. a^+ b^+",
       "C. a^* b^*",
-      "D. (a+b)^*"
+      "D. (a+b)*"
     ],
     "answerIndex": 3
   },
@@ -3537,7 +3537,7 @@
       "C. Greater",
       "D. equal"
     ],
-    "answerIndex": 2
+    "answerIndex": 1
   },
   {
     "id": 296,
@@ -3638,14 +3638,14 @@
   {
     "id": 304,
     "topic": "Formal Languages and Automata Theory",
-    "question": "The minimum length for strings in the regular expression (ba^* + aab^*)^* is",
+    "question": "The minimum length for strings in the regular expression ( ba* + aab* )* is",
     "options": [
       "A. 2",
       "B. 0",
       "C. 1",
       "D. infinite"
     ],
-    "answerIndex": 1
+    "answerIndex": 0
   },
   {
     "id": 305,
@@ -3753,7 +3753,7 @@
       "C. 2l-1",
       "D. Null}/epsilon"
     ],
-    "answerIndex": 3
+    "answerIndex": 0
   },
   {
     "id": 314,
@@ -3777,7 +3777,7 @@
       "C. Need not be regular",
       "D. IS always context free"
     ],
-    "answerIndex": 3
+    "answerIndex": 0
   },
   {
     "id": 316,
@@ -4761,7 +4761,7 @@
       "C. Software Design Life Cycle",
       "D. System Design Life Cycle"
     ],
-    "answerIndex": 1
+    "answerIndex": 0
   },
   {
     "id": 398,
@@ -4953,7 +4953,7 @@
       "C. type-3",
       "D. type-0"
     ],
-    "answerIndex": 2
+    "answerIndex": 1
   },
   {
     "id": 414,
@@ -5970,7 +5970,7 @@
     "options": [
       "A. i=0",
       "B. i le 0",
-      "C. i ge 1",
+      "C. i>=0",
       "D. i < 0"
     ],
     "answerIndex": 2
@@ -6333,7 +6333,7 @@
       "C. 2",
       "D. m-2"
     ],
-    "answerIndex": 3
+    "answerIndex": 1
   },
   {
     "id": 529,
@@ -6393,7 +6393,7 @@
       "C. n+1",
       "D. n"
     ],
-    "answerIndex": 1
+    "answerIndex": 2
   },
   {
     "id": 534,
@@ -6405,19 +6405,19 @@
       "C. Can't determined",
       "D. Neither True and Nor False"
     ],
-    "answerIndex": 1
+    "answerIndex": 0
   },
   {
     "id": 535,
     "topic": "Formal Languages and Automata Theory",
     "question": "If L1 and L2 are CFL} and R a regular set, one of the languages below is not necessarily a CFL}. which one?",
     "options": [
-      "A. L1 cap L2",
-      "B. L1 cap R",
+      "A. L1 n L2",
+      "B. L1 n R",
       "C. L1L2",
-      "D. L1 cup L2"
+      "D. L1 U L2"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "id": 536,
@@ -7185,7 +7185,7 @@
       "C. nothing",
       "D. True and False"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "id": 600,
@@ -7627,9 +7627,9 @@
       "A. 3",
       "B. 5",
       "C. 8",
-      "D. 6"
+      "D. 9"
     ],
-    "answerIndex": 2
+    "answerIndex": 3
   },
   {
     "id": 637,
@@ -7637,11 +7637,11 @@
     "question": "Consider the followings right-linear grammar G=(N,T,P,S) N={S} T={a,b} P={S -> aS | aA, A -> bA | b}. Which of the following regular expression denotes L(G)?",
     "options": [
       "A. a*b*",
-      "B. a a b b",
+      "B. aa*bb*",
       "C. a(ab)*b",
       "D. (a+b)*"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "id": 638,
@@ -7653,7 +7653,7 @@
       "C. type 0 language but not type 1",
       "D. CSL but not CFL"
     ],
-    "answerIndex": 1
+    "answerIndex": 3
   },
   {
     "id": 639,
@@ -7665,7 +7665,7 @@
       "C. type 0 language but not type 1",
       "D. regular"
     ],
-    "answerIndex": 1
+    "answerIndex": 3
   },
   {
     "id": 640,
@@ -9417,7 +9417,7 @@
       "C. Language accepted by a given DFA is nonempty",
       "D. Language generated by a CFG is nonempty"
     ],
-    "answerIndex": 2
+    "answerIndex": 0
   },
   {
     "id": 786,
@@ -11685,7 +11685,7 @@
       "C. only regular grammar",
       "D. any unambiguous grammar"
     ],
-    "answerIndex": 1
+    "answerIndex": 2
   },
   {
     "id": 975,
@@ -14304,18 +14304,6 @@
     "answerIndex": 0
   },
   {
-    "id": 1193,
-    "topic": "Formal Languages and Automata Theory",
-    "question": "Definition of a language L with alphabet {a} is given as following. L={a^nk | k>0, and n is a positive integer constant} What is the minimum number of states needed in a DFA to recognize L?",
-    "options": [
-      "A. k+1",
-      "B. n+1",
-      "C. 2^n+1",
-      "D. 2^k+1"
-    ],
-    "answerIndex": 1
-  },
-  {
     "id": 1194,
     "topic": "Data Structures and Algorithms",
     "question": "Which of the following relations is correct, when comparing the worst-case complexity?",
@@ -14424,52 +14412,16 @@
     "answerIndex": 1
   },
   {
-    "id": 1203,
-    "topic": "Formal Languages and Automata Theory",
-    "question": "Finite automata recognizes --------grammars",
-    "options": [
-      "A. Type-1",
-      "B. Type-2",
-      "C. Type-3",
-      "D. Type-0"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 1204,
-    "topic": "Formal Languages and Automata Theory",
-    "question": "The lexical analysis for a modern language such as Java needs The power of which one of the following machine models in a necessary and sufficient sense?",
-    "options": [
-      "A. Finite state automata",
-      "B. Deterministic pushdown automata",
-      "C. Non-deterministic pushdown automata",
-      "D. Turing machine"
-    ],
-    "answerIndex": 0
-  },
-  {
-    "id": 1205,
-    "topic": "Formal Languages and Automata Theory",
-    "question": "When FA M is given which recognizes language L and reverse of L is found by using M then there can be _____ Final states",
-    "options": [
-      "A. 2",
-      "B. 3",
-      "C. only one",
-      "D. any number"
-    ],
-    "answerIndex": 2
-  },
-  {
     "id": 1206,
     "topic": "Formal Languages and Automata Theory",
     "question": "The number of states in minimum DFA corresponding to the language (00+10)*100 is",
     "options": [
       "A. 4",
       "B. 3",
-      "C. 2",
+      "C. 6",
       "D. 5"
     ],
-    "answerIndex": 3
+    "answerIndex": 2
   },
   {
     "id": 1207,
@@ -14491,9 +14443,9 @@
       "A. 3",
       "B. 5",
       "C. 8",
-      "D. 6"
+      "D. 9"
     ],
-    "answerIndex": 2
+    "answerIndex": 3
   },
   {
     "id": 1209,
@@ -14505,7 +14457,7 @@
       "C. regular expression",
       "D. both finite automata and regular expression"
     ],
-    "answerIndex": 1
+    "answerIndex": 2
   },
   {
     "id": 1210,
@@ -14757,7 +14709,7 @@
       "C. C",
       "D. D"
     ],
-    "answerIndex": 3
+    "answerIndex": 1
   },
   {
     "id": 1231,
@@ -14765,11 +14717,11 @@
     "question": "Which of the following is the transition function of a NFA?",
     "options": [
       "A. Q x Sigma -> Q",
-      "B. Q x Sigma -> 2^Q",
+      "B. Q x ∑ --> 2^Q",
       "C. Q x Sigma -> 2^Q - 1",
       "D. Q x (Sigma U {epsilon}) -> 2^Q"
     ],
-    "answerIndex": 3
+    "answerIndex": 1
   },
   {
     "id": 1232,
@@ -14781,7 +14733,7 @@
       "C. 12 states",
       "D. A password pass system cannot be created using DFA"
     ],
-    "answerIndex": 1
+    "answerIndex": 0
   },
   {
     "id": 1233,
@@ -14793,7 +14745,7 @@
       "C. 8",
       "D. 6"
     ],
-    "answerIndex": 0
+    "answerIndex": 3
   },
   {
     "id": 1234,
@@ -14824,7 +14776,7 @@
     "topic": "Formal Languages and Automata Theory",
     "question": "The language acceptance of a DFA is given as:",
     "options": [
-      "A. {w in Sigma^* | delta*(q0,w) in F}",
+      "A. {w ϵ ∑^* | δ^*(q0,w) ϵ F}",
       "B. {w in Sigma | delta*(q0,w) in F}",
       "C. {w in Sigma^* | delta(q0,w) in F}",
       "D. {w in Sigma | delta(q0,w) in F}"
@@ -14862,8 +14814,8 @@
     "options": [
       "A. K >= 2n",
       "B. K >= n",
-      "C. K <= n^2",
-      "D. K <= 2^n"
+      "C. K <= n2",
+      "D. K ≤ 2n"
     ],
     "answerIndex": 3
   },
@@ -14876,18 +14828,6 @@
       "B. 2^N",
       "C. 2N",
       "D. N!"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 1241,
-    "topic": "Formal Languages and Automata Theory",
-    "question": "Given an arbitrary non-deterministic finite automaton (NFA) with N states, the maximum number of states in an equivalent minimized DFA is at least.",
-    "options": [
-      "A. N^2",
-      "B. 2^N",
-      "C. N!",
-      "D. 2N"
     ],
     "answerIndex": 1
   },
@@ -14913,7 +14853,7 @@
       "C. 0,2,4",
       "D. 0,1,2,3"
     ],
-    "answerIndex": 0
+    "answerIndex": 3
   },
   {
     "id": 1244,
@@ -14925,19 +14865,7 @@
       "C. Even if the mid point is known, it cannot find whether the second half matches the first",
       "D. All of the mentioned"
     ],
-    "answerIndex": 1
-  },
-  {
-    "id": 1245,
-    "topic": "Formal Languages and Automata Theory",
-    "question": "Definition of a language L with alphabet {a} is given as following. L={a^(nk) | k>0, and n is a positive integer constant} What is the minimum number of states needed in a DFA to recognize L?",
-    "options": [
-      "A. k+1",
-      "B. n+1",
-      "C. 2^(n+1)",
-      "D. 2^(k+1)"
-    ],
-    "answerIndex": 1
+    "answerIndex": 3
   },
   {
     "id": 1246,
@@ -14949,7 +14877,7 @@
       "C. 5",
       "D. 6"
     ],
-    "answerIndex": 2
+    "answerIndex": 1
   },
   {
     "id": 1247,
@@ -14961,7 +14889,7 @@
       "C. 3B",
       "D. Invalid String"
     ],
-    "answerIndex": 2
+    "answerIndex": 0
   },
   {
     "id": 1248,
@@ -15076,12 +15004,12 @@
     "topic": "Formal Languages and Automata Theory",
     "question": "a context free grammar to generate expression with balanced parenthesis.",
     "options": [
-      "A. S->(S) &",
+      "A. S-->(S)| Ɛ",
       "B. S->(S)",
       "C. S->S E",
       "D. S->S"
     ],
-    "answerIndex": 1
+    "answerIndex": 0
   },
   {
     "id": 1258,
@@ -15102,7 +15030,7 @@
     "options": [
       "A. {a(cd)^n b | n>=1}",
       "B. {a(cd)^n n>=1} U {b(cd)^n | n>=1}",
-      "C. { a(cd)^n a n>=0} U {a(cd)^n b n>=0} U {b(cd)^n a | n>=0} U {b(cd)^n b n>=0}",
+      "C. {a(cd)^na|n>=0}U{a(cd)^nb|n>=0}U{b(cd)^na|n>=0}U{b(cd)^nb|n> =0}",
       "D. {ac^n d^n b n>=1}"
     ],
     "answerIndex": 2
@@ -15777,7 +15705,7 @@
       "C. not context free but whose complement is CF",
       "D. context free but whose complement is CF"
     ],
-    "answerIndex": 1
+    "answerIndex": 2
   },
   {
     "id": 1316,
@@ -15801,7 +15729,7 @@
       "C. Regular set",
       "D. c and b"
     ],
-    "answerIndex": 3
+    "answerIndex": 0
   },
   {
     "id": 1318,
@@ -15826,18 +15754,6 @@
       "D. ambiguous grammar"
     ],
     "answerIndex": 3
-  },
-  {
-    "id": 1320,
-    "topic": "Formal Languages and Automata Theory",
-    "question": "if a grammar has different LMD or RMD, then it is..........",
-    "options": [
-      "A. ambiguous grammar, un ambiguous grammar",
-      "B. un ambiguous grammar, ambiguous grammar",
-      "C. ambiguous grammar, ambiguous grammar",
-      "D. ambiguous grammar"
-    ],
-    "answerIndex": 2
   },
   {
     "id": 1321,
@@ -15933,7 +15849,7 @@
       "C. CFG",
       "D. Context free"
     ],
-    "answerIndex": 1
+    "answerIndex": 0
   },
   {
     "id": 1329,
@@ -15985,18 +15901,6 @@
   },
   {
     "id": 1333,
-    "topic": "Formal Languages and Automata Theory",
-    "question": "_____ language are the subset of context free languages.",
-    "options": [
-      "A. regular grammar",
-      "B. regular",
-      "C. CNF",
-      "D. GNF"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 1334,
     "topic": "Formal Languages and Automata Theory",
     "question": "_____ language are the subset of context free languages.",
     "options": [
@@ -16917,7 +16821,7 @@
       "C. L1 is recursive, L2 is not recursively enumerable",
       "D. L1 and L2 are recursively enumerable"
     ],
-    "answerIndex": 0
+    "answerIndex": 2
   },
   {
     "id": 1411,
@@ -16941,7 +16845,7 @@
       "C. Recursively enumerable but not recursive",
       "D. Recursive"
     ],
-    "answerIndex": 0
+    "answerIndex": 2
   },
   {
     "id": 1413,
@@ -16953,7 +16857,7 @@
       "C. Type 1 but not of type 2",
       "D. Type 0 but not of type 1"
     ],
-    "answerIndex": 2
+    "answerIndex": 3
   },
   {
     "id": 1414,
@@ -16965,7 +16869,7 @@
       "C. L and L' are not recursively enumerable",
       "D. L and L' are not recursively enumerable but not recursive."
     ],
-    "answerIndex": 2
+    "answerIndex": 3
   },
   {
     "id": 1415,
@@ -16985,7 +16889,7 @@
     "question": "Let L1 be a regular language and L2 a deterministic CFL, L3 is recursively enumerable but not recursive. Which one of the following statements is FALSE?",
     "options": [
       "A. L1 U L2 is a DCFL",
-      "B. L3 U L1 is recursive",
+      "B. L3 ∩L1 is recursive",
       "C. L1 U L2 is context-free",
       "D. L1 n L2 U L3 is recursively enumerable"
     ],
@@ -17049,7 +16953,7 @@
       "C. L1 and L1 are CSL",
       "D. L1 intersect L2 is a CSL"
     ],
-    "answerIndex": 1
+    "answerIndex": 0
   },
   {
     "id": 1422,
