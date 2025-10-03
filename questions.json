@@ -9376,12 +9376,12 @@
     "topic": "Programming",
     "question": "_____ data type represents the file stream generally, and has the capabilities of both ofstream and ifstream which means it can create files, write information to files, and read information from files.",
     "options": [
-      "A. stream",
+      "A. Fstream",
       "B. stream",
       "C. filestream",
       "D. None"
     ],
-    "answerIndex": 2
+    "answerIndex": 0
   },
   {
     "id": 784,
