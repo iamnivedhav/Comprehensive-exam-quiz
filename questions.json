@@ -465,7 +465,7 @@
       "C. Only one procedure will be active in the monitor at any one time",
       "D. Multiple procedures can share variables"
     ],
-    "answerIndex": 1
+    "answerIndex": 2
   },
   {
     "id": 40,
