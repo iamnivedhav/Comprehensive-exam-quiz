@@ -1701,7 +1701,7 @@
       "C. Control Information",
       "D. Address, Control Information"
     ],
-    "answerIndex": 1
+    "answerIndex": 3
   },
   {
     "id": 143,
@@ -5325,7 +5325,7 @@
       "C. Unsigned",
       "D. two's complement"
     ],
-    "answerIndex": 2
+    "answerIndex": 3
   },
   {
     "id": 445,
@@ -6165,7 +6165,7 @@
       "C. One page table for each file is used in a system",
       "D. One page table for each program is used in a system"
     ],
-    "answerIndex": 0
+    "answerIndex": 2
   },
   {
     "id": 515,
@@ -6741,7 +6741,7 @@
       "C. Implements progress and bounded waiting.",
       "D. Implements mutual exclusion and bounded waiting."
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "id": 563,
@@ -6753,7 +6753,7 @@
       "C. Implements progress and bounded waiting.",
       "D. Implements mutual exclusion and bounded waiting."
     ],
-    "answerIndex": 0
+    "answerIndex": 3
   },
   {
     "id": 564,
@@ -9189,7 +9189,7 @@
       "C. First Fit",
       "D. None of the given choices"
     ],
-    "answerIndex": 1
+    "answerIndex": 0
   },
   {
     "id": 768,
@@ -9993,7 +9993,7 @@
       "C. In vectored interrupt starting address sent by the device to identify itself is referred as \"service location\"",
       "D. All the mentioned options"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "id": 835,
@@ -10005,7 +10005,7 @@
       "C. Centralized Bus arbitration is similar to Priority interrupt circuit.",
       "D. None of the mentioned options."
     ],
-    "answerIndex": 3
+    "answerIndex": 0
   },
   {
     "id": 836,
@@ -10122,7 +10122,7 @@
     "options": [
       "A. 1",
       "B. 2",
-      "C. 4",
+      "C. 3",
       "D. No registers"
     ],
     "answerIndex": 2
@@ -10137,7 +10137,7 @@
       "C. High",
       "D. None of the mentioned options"
     ],
-    "answerIndex": 2
+    "answerIndex": 0
   },
   {
     "id": 847,
@@ -15418,7 +15418,7 @@
       "C. parent and child both normal execution",
       "D. parent and child both to sleep for a while"
     ],
-    "answerIndex": 0
+    "answerIndex": 1
   },
   {
     "id": 1294,
@@ -16037,12 +16037,12 @@
     "topic": "Operating Systems",
     "question": "How many types of addition in the 2's complement system:",
     "options": [
-      "A. 2",
+      "A. 3",
       "B. 4",
       "C. 5",
       "D. 6"
     ],
-    "answerIndex": 2
+    "answerIndex": 0
   },
   {
     "id": 1348,
@@ -16102,7 +16102,7 @@
       "C. Register addressing",
       "D. Indirect addressing"
     ],
-    "answerIndex": 3
+    "answerIndex": 1
   },
   {
     "id": 1353,
