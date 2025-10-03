@@ -2169,7 +2169,7 @@
       "C. 100 100",
       "D. 101 100"
     ],
-    "answerIndex": 3
+    "answerIndex": 2
   },
   {
     "id": 182,
@@ -6309,7 +6309,7 @@
       "C. Circular Wait",
       "D. No Preemption"
     ],
-    "answerIndex": 1
+    "answerIndex": 2
   },
   {
     "id": 527,
@@ -14447,18 +14447,7 @@
     ],
     "answerIndex": 3
   },
-  {
-    "id": 1209,
-    "topic": "Formal Languages and Automata Theory",
-    "question": "When there are infinite distinguishable strings then there cannot be a",
-    "options": [
-      "A. automata",
-      "B. finite automata",
-      "C. regular expression",
-      "D. both finite automata and regular expression"
-    ],
-    "answerIndex": 2
-  },
+  
   {
     "id": 1210,
     "topic": "Information Security",
